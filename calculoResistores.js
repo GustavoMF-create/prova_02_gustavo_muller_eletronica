@@ -54,6 +54,10 @@ function calculoResistores(){
         if (cor4 === "vermelho") tolerancia = "mais ou menos 2 por cento";
         if (cor4 === "dourado") tolerancia = "mais ou menos 5 por cento";
         if (cor4 === "prateado") tolerancia = "mais ou menos 10 por cento";
+        if (cor4 === "verde") tolerancia = "mais ou menos 0.5 por cento";
+        if (cor4 === "azul") tolerancia = "mais ou menos 0.25 por cento";
+        if (cor4 === "violeta") tolerancia = "mais ou menos 0.1 por cento";
+        if (cor4 === "cinza") tolerancia = "mais ou menos 0.05 por cento";
     }
 
     if( tipo === 5){
@@ -117,6 +121,10 @@ function calculoResistores(){
         if (cor5 === "vermelho") tolerancia = "mais ou menos 2 por cento";
         if (cor5 === "dourado") tolerancia = "mais ou menos 5 por cento";
         if (cor5 === "prateado") tolerancia = "mais ou menos 10 por cento";
+        if (cor5 === "verde") tolerancia = "mais ou menos 0.5 por cento";
+        if (cor5 === "azul") tolerancia = "mais ou menos 0.25 por cento";
+        if (cor5 === "violeta") tolerancia = "mais ou menos 0.1 por cento";
+        if (cor5 === "cinza") tolerancia = "mais ou menos 0.05 por cento";
 
         valor = (d1 * 100 + d2 * 10 + d3) * mult;
     }
